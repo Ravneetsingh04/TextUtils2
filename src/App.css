@@ -24,6 +24,16 @@
   color: white;
 }
 
+@media(max-width:800px){
+  .btn{
+    display: grid;
+    width: 20vh;
+    font-size: 10px;
+    
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .App-link {
   color: #61dafb;
 }
